@@ -93,7 +93,7 @@ def main(params):
 
     # extract its contents into /tmp/<action_name>-<timestamp>/
     zip_file_instance.extractall(path=zip_file_dir)
-    print ("Done extracting zip file at ", zip_file_dir)
+    print ("Info: Done extracting zip file at ", zip_file_dir)
 
     # close the ZipFile instance
     zip_file_instance.close()
@@ -106,12 +106,9 @@ def main(params):
     # after unzipping, delete the zip file
     if os.path.isfile(zip_file):
         os.remove(zip_file)
-        print ("Deleted a temporary zip file at ", zip_file)
+        print ("Info: Deleted a temporary zip file at ", zip_file)
     else:
         return {'error': "Error: " + zip_file + " file not found"}
-
-    print ("Temporary directory has the following list of files:")
-    print (os.listdir(zip_file_dir))
 
     # create and activate the virtual environment
     virtualenv_dir = os.path.join(zip_file_dir, "virtualenv")
@@ -157,7 +154,6 @@ def main(params):
 
     site_packages_dir = os.path.join(zip_file_dir, "virtualenv", "lib", "python*", "site-packages") #site.getsitepackages()[0]
     site_packages_dir = glob.glob(site_packages_dir)[0]
-    print ("site package dir ", site_packages_dir)
 
     # add package directory from site-packages for each package listed in requirements.txt
     for package in list_of_packages:
@@ -190,8 +186,6 @@ def main(params):
     url = os.environ['__OW_API_HOST'] + '/api/v1/namespaces/' + action_namespace + '/actions/' + action_name + '?overwrite=true'
     response = requests.put(url, json=json_params, params=payload, auth=(user_pass[0], user_pass[1]), verify=False)
 
-    print(response.text)
-
     return {"result": "successfully created a new action " + action_name}
 
 def validate_params(params):
@@ -208,9 +202,7 @@ def addPackageFolderToZip(zip_file_instance, package_folder, zip_file_dir):
     for file in os.listdir(package_folder):
         full_path = os.path.join(package_folder, file)
         if os.path.isfile(full_path):
-           print ("File added: " + str(full_path))
            zip_file_instance.write(full_path, os.path.relpath(full_path, zip_file_dir), compress_type=zipfile.ZIP_DEFLATED)
         elif os.path.isdir(full_path):
-            print ("Entering folder: " + str(full_path))
             addPackageFolderToZip(zip_file, full_path, zip_file_dir)
 

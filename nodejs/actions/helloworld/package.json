@@ -1,0 +1,14 @@
+{
+	"name": "hello-world-sample",
+	"description": "Node OpenWhisk action to prototype nodejs build automation",
+	"license": "Apache-2.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pritidesai/incubator-package-build.git"
+	},
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {
+		"string-format": "0.5.0"
+	}
+}

@@ -1,0 +1,39 @@
+products:
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests$$anonfun$1$$anonfun$apply$mcV$sp$1.class
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests$$anonfun$1.class
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests$$anonfun$2$$anonfun$apply$mcV$sp$2.class
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests$$anonfun$2.class
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests$$anonfun$3$$anonfun$apply$1.class
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests$$anonfun$3.class
+   src/test/scala/packages/BuildTests.scala -> build/classes/scala/test/packages/BuildTests.class
+binary dependencies:
+   src/test/scala/packages/BuildTests.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/.gradle/caches/modules-2/files-2.1/io.spray/spray-json_2.11/1.3.3/960e398a2b6a57dd67faf2c98561a125ca93080a/spray-json_2.11-1.3.3.jar
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.11/e283d2b7fde6504f6a86458b1f6af465353907cc/scala-library-2.11.11.jar
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.1/3c444d143879dc172fa555cea08fd0de6fa2f34f/scalactic_2.11-3.0.1.jar
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/ActivationResponse.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/ActivationResult.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/BaseActivation.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/DeleteFromCollectionCLI.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/ListOrGetFromCollectionCLI.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/TestHelpers.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/TestUtils.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/Wsk.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/WskAction.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/WskActivation.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/WskPackage.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/WskProps$.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/WskProps.class
+   src/test/scala/packages/BuildTests.scala -> /Users/pritidesai/Documents/goworkspace/src/github.com/apache/incubator-openwhisk/tests/build/classes/scala/test/common/WskTestHelpers.class
+source dependencies:
+external dependencies:
+class names:
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests$$anonfun$1
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests$$anonfun$1$$anonfun$apply$mcV$sp$1
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests$$anonfun$2
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests$$anonfun$2$$anonfun$apply$mcV$sp$2
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests$$anonfun$3
+   src/test/scala/packages/BuildTests.scala -> packages.BuildTests$$anonfun$3$$anonfun$apply$1
